@@ -4,7 +4,7 @@
 3. For testing in Chrome - an installed Chrome browser and 'chromedriver'
 4. Installed Git client
 
-In case of troubles see trouble.shot (below)
+In case of details need see details.shot (below)
 
 ### Usage
 1. Provide your credentials in 'config/settings.yml' file
@@ -13,7 +13,7 @@ In case of troubles see trouble.shot (below)
 # Development
 We use [RSpec](http://rspec.info/) as our test runner, [cheezy/page-object](https://github.com/cheezy/page-object) as our Page-Object Pattern implementation
 
-###Trouble.shot
+###Details.shot
 This is detailed installation for Windows:
 
 1. Install Ruby 2.2.x with [RubyInstaller](http://rubyinstaller.org/downloads/) and DevKit for proper version of Ruby (it's on the same page)
