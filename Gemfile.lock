@@ -1,0 +1,87 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.0.12)
+      i18n (~> 0.6, >= 0.6.9)
+      minitest (~> 4.2)
+      multi_json (~> 1.3)
+      thread_safe (~> 0.1)
+      tzinfo (~> 0.3.37)
+    childprocess (0.5.9)
+      ffi (~> 1.0, >= 1.0.11)
+    coderay (1.1.0)
+    colored (1.2)
+    commonwatir (4.0.0)
+    data_magic (0.22)
+      faker (>= 1.1.2)
+      yml_reader (>= 0.6)
+    diff-lcs (1.2.5)
+    faker (1.4.3)
+      i18n (~> 0.5)
+    ffi (1.9.10)
+    i18n (0.6.11)
+    method_source (0.8.2)
+    minitest (4.7.5)
+    multi_json (1.11.2)
+    page-object (1.1.1)
+      page_navigation (>= 0.9)
+      selenium-webdriver (>= 2.44.0)
+      watir-webdriver (>= 0.6.11)
+    page_navigation (0.9)
+      data_magic (>= 0.14)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-nav (0.2.4)
+      pry (>= 0.9.10, < 0.11.0)
+    require_all (1.3.2)
+    rspec (3.4.0)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
+    rspec-core (3.4.2)
+      rspec-support (~> 3.4.0)
+    rspec-expectations (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-mocks (3.4.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-support (3.4.1)
+    rubyzip (1.1.7)
+    selenium-webdriver (2.48.1)
+      childprocess (~> 0.5)
+      multi_json (~> 1.0)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    slop (3.6.0)
+    thread_safe (0.3.4)
+    tzinfo (0.3.42)
+    watir (5.0.0)
+      commonwatir (~> 4)
+      watir-webdriver
+    watir-wait_with_refresh (0.0.1)
+      watir
+    watir-webdriver (0.6.11)
+      selenium-webdriver (>= 2.18.0)
+    websocket (1.2.2)
+    yml_reader (0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport (~> 4.0.1)
+  colored
+  faker
+  page-object (~> 1.1.0)
+  pry
+  pry-nav
+  require_all
+  rspec (= 3.4)
+  selenium-webdriver (~> 2.48.0)
+  watir-wait_with_refresh
+
+BUNDLED WITH
+   1.11.2
