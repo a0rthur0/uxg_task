@@ -38,3 +38,7 @@ Now you are ready to run some tests.
 
 #####What about ssh errors
 If you see on of those it means you will need to [update rubygems](https://gist.github.com/luislavena/f064211759ee0f806c88#installing-using-update-packages-new)
+
+### Updates 10.05.2016
+1. Fixed test "Add task without date"
+2. Added new test "Add task with date" with proper checks.

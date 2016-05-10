@@ -42,5 +42,4 @@ describe "Tasks" do
 
     include_examples "Create a task and check it"
   end
-
 end
