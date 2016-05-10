@@ -17,6 +17,7 @@ shared_examples "Create a task and check it" do
   it "checks the task on the list" do
     created_task = get_created_task_from_list(@task_content)
     expect(created_task).not_to be_nil
+    on(TasksPage).get_task_date(@task_content) if check_date
   end
 end
 
@@ -29,10 +30,17 @@ describe "Tasks" do
   context "Add task without date" do
     before(:all) { @task_content = Faker::Lorem.sentence}
     let(:remove_date) { true }
+    let(:check_date) { false }
 
     include_examples "Create a task and check it"
   end
 
-  #add your test here
+  context "Add task with date" do
+    before(:all) {@task_content = "Date test " + Faker::Lorem.sentence}
+    let(:remove_date) { false }
+    let(:check_date) { true }
+
+    include_examples "Create a task and check it"
+  end
 
 end

@@ -82,6 +82,3 @@ DEPENDENCIES
   rspec (= 3.4)
   selenium-webdriver (~> 2.48.0)
   watir-wait_with_refresh
-
-BUNDLED WITH
-   1.11.2

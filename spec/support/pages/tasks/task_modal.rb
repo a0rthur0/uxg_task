@@ -8,7 +8,7 @@ module TaskModal
   text_field(:task_due_time, css: ".time .start_at .ui-timepicker-input")
   checkbox(:due_date_toggle, css: "div.task-time > div > input")
 
-  link(:create_task, text: "Save")
+  link(:create_task, text: "Create")
   link(:update_task, text: "Update")
   link(:cancel_task, text: "Cancel")
   link(:delete_task, text: "Delete Task")
